@@ -1,6 +1,10 @@
 {
   "name": "ng-boilerplate",
   "version": "1.0.0",
+  "engines": {
+    "npm": "10.8.1",
+    "node": "v22.4.1"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
