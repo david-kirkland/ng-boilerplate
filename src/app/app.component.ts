@@ -6,8 +6,18 @@ import { RouterOutlet } from '@angular/router';
   standalone: true,
   imports: [RouterOutlet],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  styleUrl: './app.component.scss',
 })
 export class AppComponent {
-  title = 'ng-boilerplate';
+  title = 'Ng Boilerplate';
+  testData = 1;
+  unreachableData = 1;
+
+  test() {
+    this.testData++;
+  }
+
+  unreachableFromUI() {
+    this.unreachableData++;
+  }
 }
