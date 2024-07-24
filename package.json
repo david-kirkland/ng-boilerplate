@@ -66,7 +66,7 @@
     "@istanbuljs/nyc-config-typescript": "1.0.2",
     "@jsdevtools/coverage-istanbul-loader": "3.0.5",
     "@types/express": "4.17.21",
-    "@types/jsonpath": "^0.2.4",
+    "@types/jsonpath": "0.2.4",
     "@types/node": "18.19.41",
     "angular-eslint": "18.1.0",
     "axe-core": "4.9.1",

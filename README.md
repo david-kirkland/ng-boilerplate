@@ -16,11 +16,11 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ## Running end-to-end and component tests
 
-Run `npm run test` to run end-to-end and component tests via [Cypress](https://www.cypress.io).
+Run `npm run test` to run end-to-end and component tests via [Cypress](https://www.cypress.io). A cumulative coverage report will be generated at `coverage/index.html`.
 
 ## Running code coverage
 
-Run `npm run test:coverage` to execute the end-to-end and component tests and to generate a cumulative coverage report at `coverage/index.html`.
+Run `npm run test:coverage` to check test coverage.
 
 ## Further help
 
