@@ -9,7 +9,7 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.scss',
 })
 export class AppComponent {
-  title = 'Ng Boilerplate';
+  title = 'ng-boilerplate';
   testData = 1;
   unreachableData = 1;
 

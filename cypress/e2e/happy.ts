@@ -1,3 +1,5 @@
+import project from 'package.json';
+
 const happy = () => {
   describe('Happy Path', () => {
     beforeEach(() => {
@@ -5,7 +7,7 @@ const happy = () => {
     });
 
     it('load the app', () => {
-      cy.contains('Ng Boilerplate');
+      cy.contains(project.name);
     });
 
     it('test button', () => {
